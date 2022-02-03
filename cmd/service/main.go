@@ -15,5 +15,5 @@ func main() {
 
 	http.Handle("/", http.FileServer(http.Dir("./static")))
 
-	log.Fatal(http.ListenAndServe("localhost:"+port, nil))
+	log.Fatal(http.ListenAndServe(":"+port, nil))
 }
