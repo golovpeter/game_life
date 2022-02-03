@@ -1,1 +1,0 @@
-web: cmd/service/main.go
